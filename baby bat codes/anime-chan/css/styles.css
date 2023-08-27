@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #c9d1d9;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/bg-desk.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100% 100%;
+  backdrop-filter: brightness(30%);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.logo1 {
+  position: absolute;
+  top: 2.7vh;
+  left: 1.7vw;
+}
+
+.logo {
+  width: 3rem;
+  background: #121212;
+  border: 2px solid #c9d1d9;
+  border-radius: 50%;
+  transition: all 0.3 ease-in-out;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 0.4rem #c9d1d9);
+}
+
+.instagram {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.instagram {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 4s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
+.instagram .baby_bat_codes {
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.instagram .baby_bat_codes:hover {
+  color: #fff;
+}
+
+.instagram .baby_bat_codes::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.instagram .baby_bat_codes:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 8vh;
+  font-weight: 500;
+  margin-right: -50%;
+  transform: translate(-50%);
+  color: #c9d1d9;
+}
+
+.title p {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2rem;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.title {
+  animation-name: animacao;
+  animation-duration: 1.5s;
+  animation-delay: 1s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#random-quote {
+  position: absolute;
+  top: 25vh;
+  width: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+/* Aplica a animação ao objeto */
+#random-quote {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 1.8s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
+#generate-quote-button {
+  position: absolute;
+  width: 8.1rem;
+  height: 2.5rem;
+  background: transparent;
+  top: 72vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.88rem;
+  color: #c9d1d9;
+  border: 0.1rem solid #c9d1d9;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Aplica a animação ao objeto */
+#generate-quote-button {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 4s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
+#generate-quote-button:hover {
+  border: none;
+  background-image: linear-gradient(to right, #6b727c, #c9d1d9);
+  color: #121212;
+  font-weight: 500;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem #000);
+}
+
+.por-hora {
+  position: absolute;
+  top: 79vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.7rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #c9d1d9;
+}
+
+/* Aplica a animação ao objeto */
+.por-hora {
+  animation-name: animacao;
+  animation-duration: 4s;
+  animation-delay: 14s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
+audio {
+  position: absolute;
+  bottom: 6.5vh;
+  left: 1vw;
+  width: 17rem;
+  height: 2rem;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+audio {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 1.8s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}
+
+.description {
+  position: absolute;
+  font-weight: 300;
+  bottom: 3vh;
+  left: 7vw;
+  font-size: 0.95rem;
+}
+
+/* Define a animação */
+@keyframes animacao {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação ao objeto */
+.description {
+  animation-name: animacao;
+  animation-duration: 2s;
+  animation-delay: 2s; /* Define um atraso de 2 segundos */
+  opacity: 0; /* Define a opacidade inicial como 0 */
+  animation-fill-mode: forwards;
+}

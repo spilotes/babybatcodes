@@ -1,0 +1,279 @@
+@media (max-width: 414px) {
+  header {
+    height: 42vh;
+  }
+
+  .dropbtn {
+    margin: 0 0vh 0 1vh;
+  }
+
+  .dropdown-content {
+    margin-left: 1vh;
+    top: 3.4vh;
+  }
+
+  header .logo1 {
+    top: 6vh;
+  }
+
+  header h1 {
+    top: 25vh;
+    font-size: 2.5rem;
+    white-space: nowrap;
+    letter-spacing: 0.3rem;
+  }
+
+  header .ig a {
+    top: 32vh;
+  }
+
+  main {
+    height: 90vh;
+  }
+
+  main .support {
+    top: 46vh;
+    width: 20rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  main .support p {
+    width: 100%;
+  }
+
+  main .btn {
+    position: absolute;
+    background-image: linear-gradient(to right, #c9d1d9 77.5%, #6b727c 23.5%);
+    width: 14rem;
+    height: 3rem;
+    color: #000;
+    top: 54vh;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  main .btn:hover {
+    filter: drop-shadow(0 0 0.5rem #c9d1d9);
+  }
+
+  main .btn .coffee {
+    position: absolute;
+    top: 1.3vh;
+    left: 2.9vw;
+  }
+
+  main .btn .buyme {
+    position: absolute;
+    font-weight: bold;
+    color: #000;
+    top: 2vh;
+    left: 10vw;
+  }
+
+  main .btn .heart {
+    margin-left: 47.5vw;
+    margin-top: 1.3vh;
+    background-color: #c9d1d9;
+    height: 0.6rem;
+    transform: rotate(-45deg);
+    width: 0.6rem;
+    position: relative;
+  }
+
+  main .btn .heart:before,
+  .heart:after {
+    content: "";
+    background-color: #c9d1d9;
+    border-radius: 50%;
+    height: 0.6rem;
+    position: absolute;
+    width: 0.6rem;
+  }
+
+  main .btn .heart:before {
+    top: -0.3rem;
+  }
+
+  main .btn .heart:after {
+    left: 0.3rem;
+  }
+
+  main .btn .number {
+    position: absolute;
+    font-size: 0.9rem;
+    font-weight: bold;
+    top: 3.3vh;
+    right: 3.8vw;
+  }
+
+  main .arquivo-estudos {
+    position: absolute;
+    background-color: #c9d1d9;
+    box-shadow: 2px 0 0 0 #6b727c inset;
+    width: 20rem;
+    height: 7.5rem;
+    top: 66vh;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  main .arquivo-estudos:hover {
+    top: 65.5vh;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem #6b727c);
+  }
+
+  main .arquivo-estudos .linha-vertical {
+    position: absolute;
+    height: 100%;
+    border-left: 4px solid #6b727c;
+    left: 0.5vw;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  main .arquivo-estudos .road {
+    position: absolute;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    color: #121212;
+    top: 2.5vh;
+    left: 6vw;
+  }
+  main .arquivo-estudos .stacks1 {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    top: 6.5vh;
+    left: 6vw;
+    color: #6b727c;
+  }
+
+  main .arquivo-estudos .stacks2 {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1.3rem;
+    top: 10vh;
+    left: 6vw;
+    color: #000000;
+  }
+
+  section .links-container {
+    display: flex;
+    top: 88vh;
+    left: 10vw;
+    position: absolute;
+  }
+
+  section .links-container aside a {
+    text-decoration: none;
+  }
+
+  section .links-container aside i {
+    width: 3.1rem;
+    display: flex;
+    cursor: pointer;
+    font-size: 3rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  section .links-container aside .github {
+    color: #c9d1d9;
+    position: absolute;
+  }
+
+  section .links-container aside .github:hover {
+    transform: scale(1.03);
+  }
+
+  section .links-container aside .codepen {
+    color: #c9d1d9;
+    position: absolute;
+    top: 12vh;
+  }
+
+  section .links-container aside .codepen:hover {
+    transform: scale(1.03);
+  }
+
+  section .links-container aside .spotify {
+    color: #c9d1d9;
+    position: absolute;
+    top: 24vh;
+  }
+
+  section .links-container aside .spotify:hover {
+    transform: scale(1.03);
+  }
+
+  section .links-container aside .github-name {
+    position: absolute;
+    top: 0.1vh;
+    left: 18vw;
+    color: #6b727c;
+    font-size: 1.5rem;
+  }
+
+  section .links-container aside .g-user {
+    position: absolute;
+    top: 4.1vh;
+    left: 18vw;
+    color: #6b727c;
+    font-size: 1.1rem;
+  }
+
+  section .links-container aside .codepen-name {
+    position: absolute;
+    top: 12.5vh;
+    left: 18vw;
+    color: #6b727c;
+    font-size: 1.5rem;
+  }
+
+  section .links-container aside .c-user {
+    position: absolute;
+    top: 16.5vh;
+    left: 18vw;
+    color: #6b727c;
+    font-size: 1.1rem;
+  }
+
+  section .links-container aside .spotify-name {
+    position: absolute;
+    top: 24.5vh;
+    left: 18vw;
+    color: #6b727c;
+    font-size: 1.5rem;
+  }
+
+  section .links-container aside .s-user {
+    position: absolute;
+    white-space: nowrap;
+    top: 28.5vh;
+    left: 18vw;
+    color: #6b727c;
+    font-size: 1.1rem;
+  }
+
+  section .links-container aside span:hover {
+    text-decoration: underline;
+  }
+
+  section .botton a {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    white-space: nowrap;
+    top: 125.8vh;
+    align-items: center;
+    justify-content: center;
+  }
+}

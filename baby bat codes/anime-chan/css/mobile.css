@@ -1,0 +1,51 @@
+@media (max-width: 414px) {
+  body {
+    background: url(../img/bg-mobile.jpeg);
+    background-size: 100% 96%;
+    backdrop-filter: brightness(28%);
+  }
+
+  .logo1 {
+    top: 1.5vh;
+    left: 4vw;
+  }
+
+  .instagram {
+    top: 0.7rem;
+  }
+
+  .instagram .baby_bat_codes {
+    font-weight: 300;
+  }
+
+  #random-quote {
+    top: 17vh;
+    width: 85%;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  #generate-quote-button {
+    top: 71vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .por-hora {
+    top: 76.5vh;
+  }
+
+  audio {
+    bottom: 12.5vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+
+  .description {
+    bottom: 9.7vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+  }
+}

@@ -1,0 +1,111 @@
+@media screen and (min-width: 1400px) {
+  header {
+    height: 42vh;
+  }
+
+  .dropbtn {
+    margin: 1vh 0vh 0 2vh;
+  }
+
+  .dropdown-content {
+    top: 4.4vh;
+  }
+
+  header .logo1 {
+    top: 6vh;
+  }
+
+  header h1 {
+    top: 25.3vh;
+  }
+
+  header .ig a {
+    top: 32.5vh;
+  }
+
+  main {
+    height: 98vh;
+  }
+
+  main .support {
+    top: 48.5vh;
+  }
+
+  main .btn {
+    top: 54vh;
+  }
+
+  main .btn .buyme {
+    top: 2vh;
+  }
+
+  main .btn .heart {
+    margin-left: 13.5vw;
+  }
+
+  main .btn .number {
+    top: 3.4vh;
+    right: 1.2vw;
+  }
+
+  main .arquivo-estudos {
+    top: 66.2vh;
+    height: 7.5rem;
+  }
+
+  main .arquivo-estudos:hover {
+    top: 65.7vh;
+  }
+
+  main .arquivo-estudos .road {
+    top: 3vh;
+  }
+
+  main .arquivo-estudos .stacks1 {
+    top: 6.5vh;
+  }
+
+  main .arquivo-estudos .stacks2 {
+    top: 10vh;
+  }
+
+  section .links-container aside .github {
+    top: -20vh;
+  }
+
+  section .links-container aside .codepen {
+    top: -5vh;
+  }
+
+  section .links-container aside .spotify {
+    top: 11vh;
+  }
+
+  section .links-container aside .github-name {
+    top: -20vh;
+  }
+
+  section .links-container aside .g-user {
+    top: -15.3vh;
+  }
+
+  section .links-container aside .codepen-name {
+    top: -5vh;
+  }
+
+  section .links-container aside .c-user {
+    top: 0vh;
+  }
+
+  section .links-container aside .spotify-name {
+    top: 11vh;
+  }
+
+  section .links-container aside .s-user {
+    top: 16vh;
+  }
+
+  section .botton a {
+    top: 134vh;
+  }
+}

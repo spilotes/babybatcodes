@@ -1,0 +1,20 @@
+@media (max-width: 414px) {
+  .logo {
+    width: 42vw;
+    top: 33%;
+  }
+
+  .glitch-wrapper {
+    top: 1vh;
+  }
+
+  .cute-ghosts {
+    width: 18vw;
+    top: 54vh;
+    left: 41.5%;
+  }
+
+  #generate-quote-button {
+    bottom: 28vh;
+  }
+}
