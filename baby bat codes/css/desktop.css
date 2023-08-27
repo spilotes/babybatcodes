@@ -3,6 +3,13 @@
     height: 42vh;
   }
 
+  .dropdown .dropbtn .cute-ghosts2 {
+    position: absolute;
+    width: 2.8vw;
+    top: 0.3vh;
+    left: 3.25vw;
+  }
+
   .dropbtn {
     margin: 1vh 0vh 0 2vh;
   }
