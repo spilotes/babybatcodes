@@ -13,13 +13,6 @@ header {
   box-shadow: 1px 0 0 1px #262626;
 }
 
-.dropdown .dropbtn .cute-ghosts2 {
-  position: absolute;
-  width: 2.8vw;
-  top: 0.3vh;
-  left: 3.25vw;
-}
-
 /* Dropdown Button */
 .dropbtn {
   background-color: #242424; /* For browsers that do not support gradients */
@@ -40,6 +33,17 @@ header {
 .dropbtn:focus {
   background-color: #121212; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #121212, #121212);
+}
+
+.dropdown .dropbtn .cute-ghosts2 {
+  position: absolute;
+  width: 2.8vw;
+  top: 0.3vh;
+  left: 3.25vw;
+}
+
+.dropdown .dropbtn .cute-ghosts2:hover {
+  filter: drop-shadow(0 0 0.3rem #c9d1d9);
 }
 
 /* The container <div> - needed to position the dropdown content */
