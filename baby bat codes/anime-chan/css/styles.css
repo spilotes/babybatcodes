@@ -217,6 +217,7 @@ audio {
   left: 1vw;
   width: 17rem;
   height: 2rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem #000000);
 }
 
 /* Define a animação */
