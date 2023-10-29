@@ -367,3 +367,11 @@ body {
   font-weight: 300;
   filter: drop-shadow(0 0 0.3rem #c9d1d9);
 }
+
+span {
+  position: absolute;
+  bottom: 2vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.9rem;
+}
