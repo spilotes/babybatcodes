@@ -368,10 +368,13 @@ body {
   filter: drop-shadow(0 0 0.3rem #c9d1d9);
 }
 
-span {
+.ano {
   position: absolute;
-  top: 97vh;
+  botton: 2vh;
   left: 50%;
   transform: translate(-50%);
+}
+
+.ano span {
   font-size: 0.9rem;
 }
