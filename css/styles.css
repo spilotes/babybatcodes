@@ -54,7 +54,7 @@ body {
 
 .logo {
   position: absolute;
-  top: 35%;
+  top: 35vh;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -370,11 +370,11 @@ body {
 
 .ano {
   position: absolute;
-  botton: 2vh;
+  bottom: 2vh;
   left: 50%;
   transform: translate(-50%);
 }
 
 .ano span {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
