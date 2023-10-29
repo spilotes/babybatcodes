@@ -54,7 +54,7 @@ body {
 
 .logo {
   position: absolute;
-  top: 37%;
+  top: 35%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -73,7 +73,7 @@ body {
 
 .glitch-wrapper {
   position: absolute;
-  top: 10vh;
+  top: 8vh;
   width: 100%;
   height: 100%;
   display: flex;
