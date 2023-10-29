@@ -17,4 +17,8 @@
   #generate-quote-button {
     bottom: 28vh;
   }
+
+  .ano span {
+    font-size: 0.65rem;
+  }
 }
