@@ -44,7 +44,7 @@ body {
 
 .salutation {
   position: absolute;
-  top: 7vh;
+  top: 4vh;
   font-size: 1.4rem;
   font-family: "Nanum Pen Script", cursive;
   left: 50%;
@@ -370,7 +370,7 @@ body {
 
 span {
   position: absolute;
-  bottom: 2vh;
+  top: 97vh;
   left: 50%;
   transform: translate(-50%);
   font-size: 0.9rem;
