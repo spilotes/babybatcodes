@@ -370,11 +370,13 @@ body {
 
 .ano {
   position: absolute;
-  bottom: 2vh;
+  bottom: 1vh;
   left: 50%;
   transform: translate(-50%);
+  font-size: 0.75rem;
 }
 
 .ano span {
-  font-size: 0.7rem;
+  font-size: 1rem;
+  font-family: "Nanum Pen Script", cursive;
 }
