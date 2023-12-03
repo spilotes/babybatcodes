@@ -325,7 +325,7 @@ body {
 
 #generate-quote-button {
   position: absolute;
-  width: 9.1rem;
+  width: 9.9rem;
   height: 2.5rem;
   background-image: linear-gradient(to right, #6b727c, #c9d1d9);
   bottom: 17vh;
