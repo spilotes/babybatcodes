@@ -2,7 +2,7 @@ ScrollReveal({ reset: true });
 
 ScrollReveal().reveal(".salutation", {
   duration: 1000,
-  delay: 4500,
+  delay: 2500,
 });
 
 ScrollReveal().reveal(".logo", {
@@ -12,5 +12,5 @@ ScrollReveal().reveal(".logo", {
 
 ScrollReveal().reveal(".ano", {
   duration: 1000,
-  delay: 4500,
+  delay: 2500,
 });
