@@ -18,6 +18,24 @@
     bottom: 28vh;
   }
 
+  .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20vh;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 8.5vw;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .links-container a {
+    margin: 0.5rem;
+    filter: drop-shadow(0 0 0.4rem #000);
+  }
+
   .ano span {
     font-size: 0.8rem;
   }
