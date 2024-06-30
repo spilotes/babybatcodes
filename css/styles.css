@@ -298,6 +298,7 @@ body {
   left: 47.5%;
   margin-right: -50%;
   transform: translate(-50%);
+  filter: drop-shadow(0 0 0.3rem #c9d1d9);
   transition: all 0.3s ease-in-out;
 }
 
@@ -317,10 +318,6 @@ body {
   animation-delay: 2.7s; /* Define um atraso de 2 segundos */
   opacity: 0; /* Define a opacidade inicial como 0 */
   animation-fill-mode: forwards;
-}
-
-.cute-ghosts:hover {
-  filter: drop-shadow(0 0 0.3rem #c9d1d9);
 }
 
 #generate-quote-button {
