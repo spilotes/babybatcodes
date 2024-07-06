@@ -52,23 +52,35 @@ body {
   transform: translate(-50%);
 }
 
-.logo {
+.logo1 {
   position: absolute;
   top: 35vh;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   width: 14vw;
+  height: 30vh;
   background: #0c0f14;
   border: 4px solid #c9d1d9;
   border-radius: 50%;
-  transition: all 0.3 ease-in-out;
   filter: drop-shadow(0 0 0.4rem #000);
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
   z-index: 1;
 }
 
-.logo:hover {
+.logo1:hover {
   filter: drop-shadow(0 0 0.4rem #c9d1d9);
+}
+
+.logo1 .logo {
+  position: absolute;
+  width: 13vw;
+  top: 14.5vh;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 1rem #000);
 }
 
 .glitch-wrapper {
