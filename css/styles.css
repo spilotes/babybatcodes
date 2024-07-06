@@ -59,7 +59,7 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   width: 14vw;
-  height: 30vh;
+  height: 28vh;
   background: #0c0f14;
   border: 4px solid #c9d1d9;
   border-radius: 50%;
@@ -76,7 +76,7 @@ body {
 .logo1 .logo {
   position: absolute;
   width: 13vw;
-  top: 14.5vh;
+  top: 13vh;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
