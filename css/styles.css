@@ -9,15 +9,15 @@
 }
 
 body {
-  background-color: #121212;
+  background-color: #0c0f14;
   opacity: 1;
   background-size: 6px 6px;
   background-image: repeating-linear-gradient(
     0deg,
     #080808,
     #080808 0.6000000000000001px,
-    #121212 0.6000000000000001px,
-    #121212
+    #0c0f14 0.6000000000000001px,
+    #0c0f14
   );
   height: 100vh;
   overflow-x: hidden;
