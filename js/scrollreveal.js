@@ -5,7 +5,7 @@ ScrollReveal().reveal(".salutation", {
   delay: 2500,
 });
 
-ScrollReveal().reveal(".logo", {
+ScrollReveal().reveal(".logo1", {
   duration: 1000,
   delay: 2500,
 });
