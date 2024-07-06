@@ -1,9 +1,15 @@
 @media (max-width: 414px) {
-  .logo1 {
-    width: 42vw;
-    top: 33%;
+.logo1 {
+    width: 22.5vh;
+    height: 45vw;
+    top: 29vh;
   }
 
+  .logo1 .logo {
+    width: 41.5vw;
+    top: 10.5vh;
+  }
+  
   .glitch-wrapper {
     top: 1vh;
   }
