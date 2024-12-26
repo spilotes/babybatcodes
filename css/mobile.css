@@ -1,5 +1,5 @@
 @media (max-width: 414px) {
-.logo1 {
+  .logo1 {
     width: 22vh;
     height: 44vw;
     top: 31.5vh;
@@ -9,7 +9,7 @@
     width: 40.8vw;
     top: 10.5vh;
   }
-  
+
   .glitch-wrapper {
     top: 1vh;
   }
@@ -39,7 +39,7 @@
 
   .links-container a {
     margin: 0.5rem;
-    filter: drop-shadow(0 0 0.4rem #000);
+    filter: drop-shadow(0 0 0.2rem #000);
   }
 
   .ano span {

@@ -9,6 +9,8 @@
 }
 
 body {
+  height: 100vh;
+  width: 100vw;
   background-color: #0c0f14;
   opacity: 1;
   background-size: 6px 6px;
@@ -16,30 +18,11 @@ body {
     0deg,
     #080808,
     #080808 0.6000000000000001px,
-    #0c0f14 0.6000000000000001px,
-    #0c0f14
+    #3e2325 0.6000000000000001px,
+    #3e2325
   );
-  height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
-}
-
-::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 15px;
-  background: #c9d1d9;
-  transition: all 300ms ease-in-out;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #6b727c;
 }
 
 .salutation {
@@ -50,6 +33,7 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
+  filter: drop-shadow(0 0 0.2rem #000);
 }
 
 .logo1 {
@@ -60,23 +44,24 @@ body {
   transform: translate(-50%, -50%);
   width: 14vw;
   height: 28vh;
-  background: #0c0f14;
-  border: 4px solid #c9d1d9;
+  background: #3e2325;
+  border: 2px solid transparent;
   border-radius: 50%;
-  filter: drop-shadow(0 0 0.4rem #000);
+  filter: drop-shadow(0 0 0.2rem #000);
   cursor: pointer;
   transition: all 0.3 ease-in-out;
   z-index: 1;
 }
 
 .logo1:hover {
-  filter: drop-shadow(0 0 0.4rem #c9d1d9);
+  border: 2px solid #c9d1d9;
+  filter: drop-shadow(0 0 0.3rem #000);
 }
 
 .logo1 .logo {
   position: absolute;
   width: 13vw;
-  top: 13vh;
+  top: 13.3vh;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -93,6 +78,7 @@ body {
   justify-content: center;
   text-align: center;
   background-color: transparent;
+  filter: drop-shadow(0 0 0.2rem #000);
 }
 
 .glitch {
@@ -102,6 +88,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.5rem;
   color: #c9d1d9;
+  filter: drop-shadow(0 0 0.2rem #000);
   z-index: 1;
 }
 
@@ -114,6 +101,7 @@ body {
   color: #c9d1d9;
   background-color: transparent;
   overflow: hidden;
+  filter: drop-shadow(0 0 0.2rem #000);
   clip: rect(0, 900px, 0, 0);
   animation: noise-before 3s infinite linear alternate-reverse;
 }
@@ -129,6 +117,7 @@ body {
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-after 2s infinite linear alternate-reverse;
+  filter: drop-shadow(0 0 0.2rem #000);
 }
 
 @keyframes noise-before {
@@ -310,7 +299,6 @@ body {
   left: 47.5%;
   margin-right: -50%;
   transform: translate(-50%);
-  filter: drop-shadow(0 0 0.3rem #c9d1d9);
   transition: all 0.3s ease-in-out;
 }
 
@@ -332,9 +320,13 @@ body {
   animation-fill-mode: forwards;
 }
 
+.cute-ghosts:hover {
+  filter: drop-shadow(0 0 0.3rem #c9d1d9);
+}
+
 #generate-quote-button {
   position: absolute;
-  width: 9.9rem;
+  width: 14vw;
   height: 2.5rem;
   background-image: linear-gradient(to right, #6b727c, #c9d1d9);
   bottom: 17vh;
@@ -348,7 +340,7 @@ body {
   border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  filter: drop-shadow(0 0 0.4rem #000);
+  filter: drop-shadow(0 0 0.4rem #080808);
 }
 
 @keyframes animacao {
@@ -406,15 +398,16 @@ body {
   animation-delay: 2.7s; /* Define um atraso de 2 segundos */
   opacity: 0; /* Define a opacidade inicial como 0 */
   animation-fill-mode: forwards;
+  filter: drop-shadow(0 0 0.2rem #000);
 }
 
 .links-container a {
   margin: 0.5rem;
-  filter: drop-shadow(0 0 0.4rem #000);
+  filter: drop-shadow(0 0 0.2rem #000);
 }
 
 .links-container a:hover {
-  filter: drop-shadow(0 0 0.4rem #6b727c);
+  opacity: 0.6;
 }
 
 .ano {
@@ -423,9 +416,11 @@ body {
   left: 50%;
   transform: translate(-50%);
   font-size: 0.75rem;
+  filter: drop-shadow(0 0 0.2rem #000);
 }
 
 .ano span {
   font-size: 1rem;
   font-family: "Nanum Pen Script", cursive;
+  filter: drop-shadow(0 0 0.2rem #000);
 }
