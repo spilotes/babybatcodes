@@ -11,7 +11,15 @@
   }
 
   .bat {
-    width: 55vw;
+    width: 60vw;
+  }
+
+  .glitch-wrapper {
+    top: -3vh;
+  }
+
+  .glitch {
+    font-size: 1.8rem;
   }
 
   .ano {
