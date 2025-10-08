@@ -22,6 +22,15 @@
     font-size: 1.8rem;
   }
 
+  .container .cute-ghosts {
+    width: 15vw;
+  }
+
+  #generate-quote-button {
+    bottom: 18vh;
+    font-size: 1.2rem;
+  }
+
   .ano {
     position: absolute;
     bottom: 1vh;
