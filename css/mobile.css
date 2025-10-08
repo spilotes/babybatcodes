@@ -33,7 +33,7 @@
 
   .container .cute-ghosts {
     width: 20vw;
-    top: 56vh;
+    top: 53vh;
     left: 40%;
     margin-right: -50%;
     transform: translate(-50%);
@@ -41,7 +41,7 @@
   }
 
   .container #generate-quote-button {
-    top: 63vh;
+    top: 60vh;
     font-size: 1.2rem;
   }
 
@@ -60,6 +60,7 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
 
