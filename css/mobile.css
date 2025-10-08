@@ -1,4 +1,9 @@
 @media (max-width: 414px) {
+  body {
+    height: 100vh; /* garante 100% da altura do viewport */
+    width: 100vw;
+  }
+
   .salutation {
     position: absolute;
     top: 4vh;
@@ -11,11 +16,12 @@
   }
 
   .bat {
-    width: 60vw;
+    width: 65vw;
+    top: 23vh;
   }
 
   .glitch-wrapper {
-    top: -3vh;
+    top: -6vh;
   }
 
   .glitch {
@@ -23,7 +29,12 @@
   }
 
   .container .cute-ghosts {
-    width: 15vw;
+    width: 20vw;
+    top: 64vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    transition: all 0.3s ease-in-out;
   }
 
   #generate-quote-button {
