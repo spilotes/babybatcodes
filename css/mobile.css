@@ -17,7 +17,7 @@
   }
 
   .glitch-wrapper {
-    top: -6vh;
+    top: -10vh;
   }
 
   .glitch {
@@ -26,15 +26,15 @@
 
   .container .cute-ghosts {
     width: 20vw;
-    top: 64vh;
-    left: 45%;
+    top: 61vh;
+    left: 42%;
     margin-right: -50%;
     transform: translate(-50%);
     transition: all 0.3s ease-in-out;
   }
 
   .container #generate-quote-button {
-    top: 70vh;
+    top: 68vh;
     font-size: 1.2rem;
   }
 
@@ -53,6 +53,7 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
 
