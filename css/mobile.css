@@ -1,5 +1,12 @@
 @media (max-width: 414px) {
-
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
   .salutation {
     position: absolute;
     top: 4vh;
@@ -53,6 +60,7 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
 
