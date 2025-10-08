@@ -324,8 +324,8 @@ body {
   border-radius: 0.4rem;
   filter: drop-shadow(0 0 0.5rem #000);
   transition: all 0.4s ease-in-out;
-  animation: fadeIn 2s ease-in-out 1s forwards,
-    pulseGlow 2.7s infinite alternate;
+  animation: fadeIn 1.5s ease-in-out 2.7s forwards,
+    pulseGlow 2s infinite alternate;
   opacity: 0; /* começa invisível até a animação iniciar */
   cursor: not-allowed;
 }
@@ -370,6 +370,7 @@ body {
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
 
 
 
