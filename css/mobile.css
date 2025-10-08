@@ -27,7 +27,7 @@
   .container .cute-ghosts {
     width: 20vw;
     top: 61vh;
-    left: 42%;
+    left: 40%;
     margin-right: -50%;
     transform: translate(-50%);
     transition: all 0.3s ease-in-out;
@@ -53,6 +53,7 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
 
