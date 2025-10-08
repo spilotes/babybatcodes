@@ -5,7 +5,7 @@
   }
 
   .container .cute-ghosts {
-    top: 61.5vh;
+    top: 60.5vh;
   }
 
   #generate-quote-button {
@@ -13,8 +13,9 @@
     width: 15vw;
     min-width: 180px;
     height: 2.8rem;
-    bottom: 24vh;
+    bottom: 26vh;
   }
 }
+
 
 
