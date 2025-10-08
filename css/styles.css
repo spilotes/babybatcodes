@@ -8,21 +8,17 @@
   white-space: nowrap;
 }
 
+html,
 body {
-  height: 100vh;
-  width: 100vw;
-  background-color: #0c0f14;
-  opacity: 1;
-  background-size: 6px 6px;
-  background-image: repeating-linear-gradient(
-    0deg,
-    #080808,
-    #080808 0.6000000000000001px,
-    #3e2325 0.6000000000000001px,
-    #3e2325
-  );
-  overflow-x: hidden;
-  overflow-y: hidden;
+  height: 100%; /* garante 100% da altura do viewport */
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #3c1414, #220a0a);
+  min-height: 100vh; /* garante que preencha a tela */
+  overflow-x: hidden; /* impede scroll horizontal */
+  overflow-y: auto;
 }
 
 .salutation {
@@ -36,41 +32,28 @@ body {
   filter: drop-shadow(0 0 0.2rem #000);
 }
 
-.logo1 {
+.logo {
   position: absolute;
-  top: 38vh;
+  top: 20vh;
   left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  width: 14vw;
-  height: 28vh;
-  background: #3e2325;
-  border: 2px solid transparent;
-  border-radius: 50%;
-  filter: drop-shadow(0 0 0.2rem #000);
+  transform: translate(-50%);
+  z-index: 9999;
+}
+
+.bat {
+  width: 30vw;
   cursor: pointer;
-  transition: all 0.3 ease-in-out;
-  z-index: 1;
+  filter: drop-shadow(0 0 0.4rem #000);
+  transition: all 1s ease-in-out;
 }
 
-.logo1:hover {
-  border: 2px solid #c9d1d9;
-  filter: drop-shadow(0 0 0.3rem #000);
-}
-
-.logo1 .logo {
-  position: absolute;
-  width: 13vw;
-  top: 13.3vh;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  filter: drop-shadow(0 0 1rem #000);
+.bat:hover {
+  filter: drop-shadow(0 0 0.4rem #c9d1d9);
 }
 
 .glitch-wrapper {
   position: absolute;
-  top: 8vh;
+  top: -1vh;
   width: 100%;
   height: 100%;
   display: flex;
@@ -83,10 +66,10 @@ body {
 
 .glitch {
   position: relative;
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-family: "Nanum Pen Script", cursive;
   font-weight: 300;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
   color: #c9d1d9;
   filter: drop-shadow(0 0 0.2rem #000);
   z-index: 1;
@@ -292,10 +275,10 @@ body {
   }
 }
 
-.cute-ghosts {
+.container .cute-ghosts {
   position: absolute;
   width: 5.5vw;
-  top: 68.5vh;
+  top: 67vh;
   left: 47.5%;
   margin-right: -50%;
   transform: translate(-50%);
@@ -312,7 +295,7 @@ body {
 }
 
 /* Aplica a animação ao objeto */
-.cute-ghosts {
+.container .cute-ghosts {
   animation-name: animacao;
   animation-duration: 1s;
   animation-delay: 2.7s; /* Define um atraso de 2 segundos */
@@ -320,94 +303,57 @@ body {
   animation-fill-mode: forwards;
 }
 
-.cute-ghosts:hover {
+.container .cute-ghosts:hover {
   filter: drop-shadow(0 0 0.3rem #c9d1d9);
 }
 
 #generate-quote-button {
   position: absolute;
-  width: 14vw;
-  height: 2.5rem;
-  background-image: linear-gradient(to right, #6b727c, #c9d1d9);
+  width: 15vw;
+  min-width: 180px;
+  height: 2.8rem;
   bottom: 17vh;
   left: 50%;
-  transform: translate(-50%);
-  font-size: 1.3rem;
+  transform: translateX(-50%);
+  font-size: 1.4rem;
   font-family: "Nanum Pen Script", cursive;
-  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #6b727c, #c9d1d9);
   color: #121212;
   border: none;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  filter: drop-shadow(0 0 0.4rem #080808);
+  border-radius: 0.4rem;
+  filter: drop-shadow(0 0 0.5rem #000);
+  transition: all 0.4s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out 1s forwards,
+    pulseGlow 2s infinite alternate;
+  opacity: 0; /* começa invisível até a animação iniciar */
+  cursor: not-allowed;
 }
 
-@keyframes animacao {
-  0% {
-    opacity: 0;
-  }
-  100% {
+/* animação de aparição */
+@keyframes fadeIn {
+  to {
     opacity: 1;
   }
 }
 
-/* Aplica a animação ao objeto */
-#generate-quote-button {
-  animation-name: animacao;
-  animation-duration: 1s;
-  animation-delay: 2.7s; /* Define um atraso de 2 segundos */
-  opacity: 0; /* Define a opacidade inicial como 0 */
-  animation-fill-mode: forwards;
+/* animação suave de brilho pulsante */
+@keyframes pulseGlow {
+  from {
+    box-shadow: 0 0 0.3rem #000;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
+  to {
+    box-shadow: 0 0 0.5rem #c9d1d9;
+    filter: drop-shadow(0 0 0.5rem #c9d1d9);
+  }
 }
 
+/* estado hover apenas visual — sem clique */
 #generate-quote-button:hover {
-  border: none;
-  background-image: linear-gradient(to right, #000, #000);
+  background: linear-gradient(135deg, #4a4f58, #9aa3ad);
   color: #c9d1d9;
-  font-weight: 300;
-  filter: drop-shadow(0 0 0.3rem #c9d1d9);
-}
-
-.links-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 7vh;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 2.5vw;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-@keyframes animacao {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-/* Aplica a animação ao objeto */
-.links-container {
-  animation-name: animacao;
-  animation-duration: 1s;
-  animation-delay: 2.7s; /* Define um atraso de 2 segundos */
-  opacity: 0; /* Define a opacidade inicial como 0 */
-  animation-fill-mode: forwards;
-  filter: drop-shadow(0 0 0.2rem #000);
-}
-
-.links-container a {
-  margin: 0.5rem;
-  filter: drop-shadow(0 0 0.2rem #000);
-}
-
-.links-container a:hover {
-  opacity: 0.6;
+  transform: translateX(-50%) scale(1.02);
 }
 
 .ano {
