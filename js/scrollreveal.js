@@ -5,12 +5,12 @@ ScrollReveal().reveal(".salutation", {
   delay: 2000,
 });
 
-ScrollReveal().reveal(".glitch-wrapper", {
+ScrollReveal().reveal(".glitch-wrappe", {
   duration: 1000,
   delay: 2000,
 });
 
-ScrollReveal().reveal(".container", {
+ScrollReveal().reveal(".containe", {
   duration: 1000,
   delay: 2000,
 });
@@ -19,4 +19,5 @@ ScrollReveal().reveal(".ano", {
   duration: 1000,
   delay: 2000,
 });
+
 
