@@ -17,7 +17,7 @@
   }
 
   .glitch-wrapper {
-    top: 2vh;
+    top: -6vh;
   }
 
   .glitch {
@@ -33,8 +33,8 @@
     transition: all 0.3s ease-in-out;
   }
 
-  #generate-quote-button {
-    top: 85vh;
+  .container #generate-quote-button {
+    top: 70vh;
     font-size: 1.2rem;
   }
 
@@ -53,5 +53,6 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
