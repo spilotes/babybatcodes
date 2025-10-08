@@ -16,12 +16,12 @@
   }
 
   .bat {
-    width: 65vw;
+    width: 70vw;
     top: 23vh;
   }
 
   .glitch-wrapper {
-    top: -6vh;
+    top: -3vh;
   }
 
   .glitch {
@@ -38,7 +38,7 @@
   }
 
   #generate-quote-button {
-    bottom: 18vh;
+    bottom: 17vh;
     font-size: 1.2rem;
   }
 
@@ -57,3 +57,4 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
