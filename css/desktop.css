@@ -4,11 +4,16 @@
     top: -5vh;
   }
 
+  .container .cute-ghosts {
+    top: 62.5vh;
+  }
+
   #generate-quote-button {
     position: absolute;
     width: 15vw;
     min-width: 180px;
     height: 2.8rem;
-    bottom: 19.5vh;
+    bottom: 22vh;
   }
 }
+
