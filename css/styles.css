@@ -278,7 +278,7 @@ body {
 .container .cute-ghosts {
   position: absolute;
   width: 5.5vw;
-  top: 65vh;
+  top: 63vh;
   left: 47.5%;
   margin-right: -50%;
   transform: translate(-50%);
@@ -312,7 +312,7 @@ body {
   width: 15vw;
   min-width: 180px;
   height: 2.8rem;
-  bottom: 19vh;
+  bottom: 21vh;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.4rem;
@@ -370,6 +370,7 @@ body {
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
 
 
 
